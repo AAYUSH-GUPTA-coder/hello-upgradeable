@@ -3,8 +3,6 @@ require("@openzeppelin/hardhat-upgrades");
 require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
-
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL;
 const MUMBAI_PRIVATE_KEY = process.env.MUMBAI_PRIVATE_KEY;
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY;
