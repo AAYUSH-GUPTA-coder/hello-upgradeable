@@ -1,10 +1,9 @@
-// SPDX-License-Identifier: SEE LICENSE IN LICENSE
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.10;
 
-contract Box {
+contract BoxV2 {
     uint public val;
-
-    function initilaize(uint _val) external {
-        val = _val;
+    function inc() external {
+        val += 1;
     }
 }
